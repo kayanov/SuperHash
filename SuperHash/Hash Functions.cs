@@ -29,6 +29,12 @@ namespace SuperHash
                 hash += (uint)(data[i] << 12);
                 hash ^= (hash << 10) | (hash >> 12);
                 hash += data[i] ^ 4294967220;
+                hash += (uint)data.Length << 22;
+
+
+                /*hash *= 5;
+                hash ^= hash >> 7; // 7
+                hash += (uint)(data[i] << 7);*/
             }
             return hash;
         }
