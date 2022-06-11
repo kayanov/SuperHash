@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32505.173
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SuperHash", "SuperHash\SuperHash.csproj", "{2FF35882-C8B2-4FCF-8D6F-85AC2CA84E89}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2FF35882-C8B2-4FCF-8D6F-85AC2CA84E89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FF35882-C8B2-4FCF-8D6F-85AC2CA84E89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FF35882-C8B2-4FCF-8D6F-85AC2CA84E89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FF35882-C8B2-4FCF-8D6F-85AC2CA84E89}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9BDE7C4-EDE3-4DC6-B85A-5A71840C328C}
+	EndGlobalSection
+EndGlobal
